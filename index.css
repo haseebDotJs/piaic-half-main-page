@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, rgb(231,222,222) 0%, rgba(224,237,239,0.9) 86%);
+}
+.nav-button{
+  width: 100%;
+  background: linear-gradient(90deg, rgba(24,100,96,1) 0%, rgba(8,58,62,1) 80%);
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 4px 0px 8px black;
+   
+}
+.nav-word {
+    list-style-type: none;
+    display: inline-block;
+    padding: 24px 32px;
+    
+}
+li a[href=""] {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    left: 630px;
+}
+li a[href=""]:hover {
+    color: rgb(63,186,144);
+
+}
+.logo {
+    position: fixed;
+    left: 30px;
+    top: -175px;
+}
+/*.president {
+    position: ;
+    top: 90px;
+    left: 30px;
+}*/
+.president {
+    padding: 95px 0px 0px 25px;
+}
+#white-bg {
+    position: absolute;
+    left: 0px;
+    top: 757.5px;
+    right: 0px;
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+.PM {
+    font-family: Arial;
+    margin: -585px 0px 0px 525px;
+    color: rgb(43,41,41);
+    font-size: 57px;
+    line-height: 0.9em;  
+    
+}
+.AI {
+    font-size: 31px;
+    font-weight: lighter;
+    letter-spacing: 0.01em;  
+}
+.mission {
+    color: rgb(61,60,60);
+    margin: 50px 0px 0px 525px;
+    font-size: 15px;
+    line-height: 1.4em;
+}
+.apply {
+    margin: 110px 0px 0px 975px;
+    padding: 13px 44px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(117deg, rgba(57,184,161,1) 0%, rgba(79,214,143,1) 82%);
+    text-transform: uppercase; 
+}
+.line {
+    font-size: 50px;
+    margin: 40px 25px 0px 25px;
+   color: rgb(27,42,86);
+}
+@font-face {
+    src: url(bench-grinder-titling/bench\ grinder\ titling.ttf);
+    font-family: "bench grinder titling";
+}
+.ninety {
+    font-size: 30px;
+    font-family: "bench grinder titling"; 
+    font-weight: bold;
+}
