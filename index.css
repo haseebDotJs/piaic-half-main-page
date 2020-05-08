@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(90deg, rgb(231,222,222) 0%, rgba(224,237,239,0.9) 86%);
+    background: linear-gradient(90deg, rgb(231,222,222) 0%, rgba(224,237,239,0.9) 86%) ;
 }
 .nav-button{
   width: 100%;
@@ -61,7 +61,7 @@ li a[href=""]:hover {
     line-height: 0.9em;  
     
 }
-.AI {
+.piaic {
     font-size: 31px;
     font-weight: lighter;
     letter-spacing: 0.01em;  
@@ -69,11 +69,11 @@ li a[href=""]:hover {
 .mission {
     color: rgb(61,60,60);
     margin: 50px 0px 0px 525px;
-    font-size: 15px;
-    line-height: 1.4em;
+    font-size: 14.4px;
+    line-height: 1.5em;
 }
 .apply {
-    margin: 110px 0px 0px 975px;
+    margin: 110px 0px 0px 915px;
     padding: 13px 44px;
     color: white;
     border: none;
@@ -83,7 +83,7 @@ li a[href=""]:hover {
 }
 .line {
     font-size: 50px;
-    margin: 40px 25px 0px 25px;
+    margin: -55px 25px 0px 1080px;
    color: rgb(27,42,86);
 }
 @font-face {
@@ -91,7 +91,171 @@ li a[href=""]:hover {
     font-family: "bench grinder titling";
 }
 .ninety {
-    font-size: 30px;
+    font-size: 35px;
     font-family: "bench grinder titling"; 
+    font-weight: 600;
+    text-align: justify;
+    color: rgb(33,37,41);
+    margin: ;
+}
+.application {
+     font-size: 10px;
+ }
+ .app {
+   margin: -37px 0px 0px 1125px;
+   line-height: 0.9em;
+
+ }
+ .ac {
+    font-size: 32px;
     font-weight: bold;
+    color: rgb(102,102,102);
+    margin: 70px 0px 0px 31%;
+    letter-spacing: 15px;
+}
+/*.box1 {
+    position: absolute;
+    left: 33px;
+    top: 685px;
+    background-color: white;
+    padding: 60px 65px ;
+    box-shadow: 3px 2px 3px #bbb4b4;
+    border-top: 41px solid rgb(25,42,86);
+    border-radius: 8px;
+    color: rgb(25,42,86);
+    font-weight: bold;
+    font-size: 17px;
+}
+.box1:hover {
+    background-color:  rgba(25,42,86,0.6);
+    border-top: 41px solid rgba(25,42,86,0.6)
+    border: none;
+}*/
+
+.box1 {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    margin-right: 27px;
+    height: 140px;
+    width: 299px;
+    border-top: 41px solid rgb(25,42,86);
+    background-color: white;
+    box-shadow: 1px 2px 6px rgba(92, 88, 88, 0.3);
+    border-radius: 6px;
+}
+.box1:hover{
+    background-color:  rgba(25,42,86,1);
+    position: relative;
+    top: -36px;
+    border: none;
+    height: 181px;
+    font-size: 0;
+    box-shadow: none;
+}
+.ai {
+    position: relative;
+    left: 23%;
+    top: 41%;
+    padding: auto;
+    color: rgb(25,42,86);
+    font-weight: bold;
+    font-size: 16px;
+}
+.box2 {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    margin-right: 27px;
+    height: 140px;
+    width: 299px;
+    border-top: 41px solid rgb(226,73,106);
+    background-color: white;
+    box-shadow: 1px 2px 6px rgba(92, 88, 88, 0.3);
+    border-radius: 6px;
+    font-size: 16px;
+
+}
+.box2:hover{
+    background-color:  rgba(226,73,106, 1);
+    position: relative;
+    top: -36px;
+    border: none;
+    height: 181px;
+    box-shadow: none;
+    font-size: 5px;
+    color: black;
+}
+.cnc {
+    position: relative;
+    left: 12.3%;
+    top: 41%;
+    padding: auto;
+    color: rgb(226,73,106);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.box3 {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    margin-right: 27px;
+    height: 140px;
+    width: 299px;
+    border-top: 41px solid rgb(251,196,60);
+    background-color: white;
+    box-shadow: 1px 2px 6px rgba(92, 88, 88, 0.3);
+    border-radius: 6px;
+}
+.box3:hover {
+    background-color: rgb(251,196,60);
+    position: relative;
+    top: -36px;
+    border: none;
+    height: 181px;
+    font-size: 0;
+    box-shadow: none;
+}
+.bc {
+    position: relative;
+    left: 36%;
+    top: 41%;
+    padding: auto;
+    color: rgb(251,196,60);
+    font-weight: bold;
+    font-size: 16px;
+}
+.box4 {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    margin-right: 27px;
+    height: 140px;
+    width: 299px;
+    border-top: 41px solid rgb(37,143,139);
+    background-color: white;
+    box-shadow: 1px 2px 6px rgba(92, 88, 88, 0.3);
+    border-radius: 6px;
+}
+.box4:hover{
+    background-color:  rgba(37,143,139);
+    position: relative;
+    top: -36px;
+    border: none;
+    height: 181px;
+    font-size: 0;
+    box-shadow: none;
+}
+.iot {
+    position: relative;
+    left: 18.5%;
+    top: 41%;
+    padding: auto;
+    color: rgb(37,143,139);
+    font-weight: bold;
+    font-size: 16px;
+}
+.box1, .box2, .box3, .box4 {
+    display: inline-block;
 }
